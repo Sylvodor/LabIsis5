@@ -22,6 +22,10 @@ else if (c == '*')
 }
 else if (c == '/')
 {
+    if (b!=0){
     res = a / b;
-    Console.WriteLine("Результат - " + res);
+    Console.WriteLine("Результат - " + res);}
+    else {
+    Console.WriteLine("Нельзя делить на 0!!!");
+    }
 }
