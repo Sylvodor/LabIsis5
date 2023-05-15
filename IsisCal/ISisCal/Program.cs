@@ -25,3 +25,7 @@ else if (c == '/')
     res = a / b;
     Console.WriteLine("Результат - " + res);
 }
+else
+{
+    Console.WriteLine("Оператор не распознан!!!");
+}
